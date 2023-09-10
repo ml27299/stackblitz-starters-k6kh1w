@@ -6,7 +6,7 @@ export default function App() {
   return (
     <div>
       <Partytown
-        debug={false}
+        debug={true}
         forward={[
           'dataLayer.push',
           'ga',
